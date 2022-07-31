@@ -162,7 +162,7 @@ function App() {
 
 	useEffect(() => {
 		loadWeb3()
-		cycleImages()
+		cycleImages() 
 	}, [account]);
 
 	return (
@@ -172,19 +172,19 @@ function App() {
 				<section id='welcome' className='welcome'>
 
 					<Row className='header my-3 p-3 mb-0 pb-0'>
-						<Col xs={12} md={12} lg={8} xxl={8}>
+						<Col md={5} lg={4} xl={5} xxl={4}>
 							<h1>ROWDY GOAT</h1>
-							<p className='sub-header'>Availble on 05 / 22 / 22</p>
+							<p className='sub-header'>Available on 9 / 5 / 22</p>
 						</Col>
 						<Col className='flex social-icons'>
 							<a
-								href="https://twitter.com/DappUniversity"
+								href="https://mobile.twitter.com/defi_philly"
 								target='_blank'
 								className='circle flex button'>
 								<img src={twitter} alt="Twitter" />
 							</a>
 							<a
-								href="#"
+								href="https://defiphilly.io/"
 								target='_blank'
 								className='circle flex button'>
 								<img src={instagram} alt="Instagram" />
@@ -202,7 +202,7 @@ function App() {
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
 							<img
 								src={philly}
-								alt="Crypto Punk"
+								alt="RGSC"
 								className='philly'
 							/>
 						</Col>
@@ -221,7 +221,7 @@ function App() {
 					<Row className='flex m-3'>
 						<h2 className='text-center p-3'>About the Collection</h2>
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<img src={showcase} alt="Multiple Crypto Punks" className='showcase' />
+							<img src={showcase} alt="GOAT" className='showcase' />
 						</Col>
 						<Col md={5} lg={4} xl={5} xxl={4}>
 							{isError ? (

@@ -4,8 +4,8 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
     return (
         <nav className="navbar fixed-top mx-3">
             <a
-                className="navbar-brand col-sm-3 col-md-2 mr-0 mx-4"
-                href="http://www.dappuniversity.com/bootcamp"
+                className="navbar-brand col-sm-2 col-md-2 mr-0 mx-4"
+                href="https://defiphilly.io/"
                 target="_blank"
                 rel="noopener noreferrer"
             >

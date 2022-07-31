@@ -35,12 +35,12 @@ body {
 }
 
 nav {
-    height: 10vh;
+    height: 15vh;
 }
 
 main {
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 20vh;
     scroll-snap-type: y mandatory;
 
     /* padding: 3em 1em; */
@@ -81,7 +81,7 @@ h3 {
 .sub-header {
     font-family: "Gochi Hand";
     font-weight: 700;
-    font-size: clamp(2rem, 5vw, 4rem);
+    font-size: clamp(1.25rem, 2.5vw, 2rem);
     transform: rotate(-4deg) translateX(2.5em) translateY(-0.5em);
     padding-left: .8em;
 }
@@ -157,6 +157,11 @@ a:hover {
 }
 
 .showcase {
+    width: 250px;
+    height: auto;
+}
+
+.philly {
     width: 250px;
     height: auto;
 }
